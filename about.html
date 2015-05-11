@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>About</title>
   <meta name="viewport" content="width=devices-width, initial-scale=1">
-  <link href="css/_styles.css" rel="stylesheet">
-  <link href="css/_responsives.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/responsives.css" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
   </script>
@@ -17,35 +17,72 @@
 <body class="kudosplush">
   <header class="header">
     <div class="container">
-      <nav class="navbar">
-        <div class="navbar-inner">
-          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar collapsed" type="button">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <button data-target="#navbar-collapse-1" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Kudos Plush</a>
+          <a class="navbar-brand" href="#">Kudos Plush</a>
 
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
-              <li class="active">
-                <a href="index.html">Home</a>
-              </li>
+          <div class="nav-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      <h1>About <small>read the story</small></h1>
     </div>
   </header>
   <div class="content">
-    <div class="container"> </div>
+    <div class="container">
+      <div class="row">
+        <div class="img-story col-md-6">
+          <img class="img-responsive" src="img/img-about.jpg">
+        </div>
+        <div class="story col-md-6">
+          <p>Bacon ipsum dolor amet in aliqua ea, dolore pastrami sausage shank spare ribs ham sunt. Prosciutto drumstick rump, lorem do consequat pancetta est laborum sausage in. Turducken nisi aliqua in dolore sunt. Swine chicken bresaola veniam do, eu prosciutto tempor fugiat ipsum pork belly.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h3>Meet the Founders</h3>
+      <div class="profile row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-responsive" src="img/salman.jpg">
+            </div>
+            <div class="col-md-8">
+              <h4>Salman Fariz Alutfi</h4>
+              <p>Bacon ipsum dolor amet chicken hamburger ham hock chuck andouille ribeye ground round turkey ball tip filet mignon. Fatback andouille tri-tip hamburger tongue doner alcatra cow tail salami t-bone turducken. Rump sirloin tri-tip, chicken spare ribs beef ribs chuck jowl tail shank. Jerky andouille pork chop shank doner.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-responsive" src="img/arif.jpg">
+            </div>
+            <div class="col-md-8">
+              <h4>Arief Bahari</h4>
+              <p>Bacon ipsum dolor amet chicken hamburger ham hock chuck andouille ribeye ground round turkey ball tip filet mignon. Fatback andouille tri-tip hamburger tongue doner alcatra cow tail salami t-bone turducken. Rump sirloin tri-tip, chicken spare ribs beef ribs chuck jowl tail shank. Jerky andouille pork chop shank doner.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="header">
     <div class="container">
       <div class="row">
-        <div class="span6">
+        <div class="col-md-6">
           <nav class="nav-footer">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -56,7 +93,7 @@
             </ul>
           </nav>
         </div>
-        <div class="span6">
+        <div class="col-md-6">
           <small class="copyright">Copyright © 2012 John Doe - All rights reserved</small>
           <ul class="social-links">
             <li class="facebook"><a href="#">Facebook</a></li>
