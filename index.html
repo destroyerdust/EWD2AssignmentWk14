@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <title>Home</title>
-  <meta name="viewport" content="width=devices-width, initial-scale=1">
+  <meta name="viewport" content="width=devices-width, initial-scale=1" />
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/responsives.css" rel="stylesheet">
   <!--[if lt IE 9]>
@@ -17,17 +17,18 @@
 <body class="kudosplush">
   <header class="header">
     <div class="container">
-      <nav class="navbar">
-        <div class="navbar-inner">
-          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar collapsed" type="button">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <button data-target="#navbar-collapse-1" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Kudos Plush</a>
+          <a class="navbar-brand" href="#">Kudos Plush</a>
 
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
+          <div class="nav-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
               <li class="active">
                 <a href="index.html">Home</a>
               </li>
@@ -45,7 +46,7 @@
           <p class="price">USD50.0</p>
         </div>
         <div class="hero-image col-md-5">
-          <img src="img/hero-image.png" alt="KudosPlush Hero image"> </div>
+          <img src="img/hero-image-test.jpg" alt="KudosPlush Hero image"> </div>
       </div>
     </div>
   </header>
@@ -65,16 +66,16 @@
 
       <div class="gallery row">
         <figure class="col-md-3">
-          <img class="img-polaroid" src="img/imge-1.jpg" alt="featured product no. 1">
+          <img class="img-responsive" src="img/image-1.jpg" alt="featured product no. 1">
         </figure>
         <figure class="col-md-3">
-          <img class="img-polaroid" src="img/image-2.jpg" alt="featured product no. 2">
+          <img class="img-responsive" src="img/image-2.jpg" alt="featured product no. 2">
         </figure>
         <figure class="col-md-3">
-          <img class="img-polaroid" src="img/image-3.jpg" alt="featured product no. 3">
+          <img class="img-responsive" src="img/image-3.jpg" alt="featured product no. 3">
         </figure>
         <figure class="col-md-3">
-          <img class="img-polaroid" src="img/image-3.jpg" alt="featured product no. 4">
+          <img class="img-responsive" src="img/image-3.jpg" alt="featured product no. 4">
         </figure>
       </div>
 
@@ -92,7 +93,7 @@
     <footer class="header">
       <div class="container">
         <div class="row">
-          <div class="span6">
+          <div class="col-md-6">
             <nav class="nav-footer">
               <ul>
                 <li><a href="index.html">Home</a></li>
@@ -103,7 +104,7 @@
               </ul>
             </nav>
           </div>
-          <div class="span6">
+          <div class="col-md-6">
             <small class="copyright">Copyright © 2012 John Doe - All rights reserved</small>
             <ul class="social-links">
               <li class="facebook"><a href="#">Facebook</a></li>
